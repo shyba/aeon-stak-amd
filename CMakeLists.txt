@@ -8,7 +8,7 @@ if("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
     endif()
 endif()
 
-find_library(MHTD NAMES microhttpd)
+find_library(MHTD NAMES microhttpd microhttpd-10 libmicrohttpd libmicrohttpd-dll)
 if("${MHTD}" STREQUAL "MHTD-NOTFOUND")
     message(FATAL_ERROR "libmicrohttpd is required")
 endif()
