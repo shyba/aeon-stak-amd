@@ -236,7 +236,7 @@ size_t InitOpenCLGpu(cl_context opencl_ctx, GpuContext* ctx, char* source_code)
 	}
 
 	size_t g_thd = ctx->rawIntensity;
-	ctx->ExtraBuffers[0] = clCreateBuffer(opencl_ctx, CL_MEM_READ_WRITE, (1 << 21) * g_thd, NULL, &ret);
+	ctx->ExtraBuffers[0] = clCreateBuffer(opencl_ctx, CL_MEM_READ_WRITE, (1 << 20) * g_thd, NULL, &ret);
 	if(ret != CL_SUCCESS)
 	{
 		printer_print_msg("Error %s when calling clCreateBuffer to create hash scratchpads buffer.", err_to_str(ret));
