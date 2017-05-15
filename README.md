@@ -1,6 +1,6 @@
-### XMR-Stak-AMD - Monero mining software
+### AEON-Stak-AMD - Monero mining software
 
-XMR-Stak is a universal Stratum pool miner. This is the AMD GPU-mining version; there is also an [CPU version](https://github.com/fireice-uk/xmr-stak-cpu) and an [NVIDA GPU version](https://github.com/fireice-uk/xmr-stak-nvidia)
+AEON-Stak is a universal Stratum pool miner. This is the AMD GPU-mining version; there is also an [CPU version](https://github.com/shyba/aeon-stak-cpu) and an [NVIDA GPU version](https://github.com/stoffu/aeon-stak-nvidia)
 
 #### HTML reports
 
@@ -13,7 +13,7 @@ The hashrate shown above was generated on a non-modded, non-overclocked RX 480.
 1) Edit the config.txt file to enter your pool login and password. 
 2) Double click the exe file. 
 
-XMR-Stak should compile on any C++11 compliant compiler. Windows compiler is assumed to be MSVC 2015 CE. MSVC build environment is not vendored.
+AEON-Stak should compile on any C++11 compliant compiler. Windows compiler is assumed to be MSVC 2015 CE. MSVC build environment is not vendored.
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
